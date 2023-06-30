@@ -1,8 +1,8 @@
 <!doctype html>
 <%- include('./partials/head.ejs') %>
 <%- include('./partials/header.ejs') %>
-<main class="main inspiratie">
-  <header class="unsplash">
+<main class="main ins">
+  <header class="uHeader">
     <form class="userdataForm" method="post" action="/newPhoto">
       <label for="category">Category</label>
         <input type="text" class="category" id="category" name="category" aria-label="Pick a category"
@@ -12,16 +12,14 @@
     </form>
 
   </header>
-  <section class="unsplashGallery">
-    <h2>gallery of photographs</h2>
+  <section class="uGallery">
+    <h2>gallery</h2>
     <div class="masonry-with-columns">
-      <% photos.forEach(img => { %>
       <article>
         <figure>
-          <img style="border: 6.5px solid <%= img.color %>;" src= "<%= img.url %>" alt="<%= img.alt_description %>">
+          <img style="border: 6.5px solid lavender;" src= "" alt="">
         </figure>
       </article>
-      <% }); %>
     </div>
   </section>
 </main>

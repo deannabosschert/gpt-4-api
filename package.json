@@ -1,18 +1,18 @@
 {
-  "name": "mongodb-example",
+  "name": "gpt-4-api",
   "version": "1.0.0",
-  "description": "Example usage of mongodb atlas database.",
+  "description": "Testing gpt-4 api.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deannabosschert/mongodb-example.git"
+    "url": "git+https://github.com/deannabosschert/gpt-4-api.git"
   },
   "keywords": [],
   "author": "Deanna Bosschert",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/deannabosschert/mongodb-example/issues"
+    "url": "https://github.com/deannabosschert/gpt-4-api/issues"
   },
-  "homepage": "https://github.com/deannabosschert/mongodb-example#readme",
+  "homepage": "https://github.com/deannabosschert/gpt-4-api#readme",
   "main": "server.js",
   "engines": {
     "node": "^15.12.0",
@@ -20,8 +20,6 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
-    "node-sass": "^4.14.1",
-    "node-sass-glob-importer": "^5.3.2",
     "nodemon": "^2.0.2",
     "npm-run-all": "^4.1.5"
   },
@@ -32,10 +30,10 @@
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "express-session": "^1.17.2",
-    "heroku": "^7.2.0",
     "mongodb": "^3.6.6",
     "multer": "^1.4.4",
     "node-fetch": "^2.6.0",
+    "openai": "^3.3.0",
     "socket.io": "^4.0.0"
   },
   "scripts": {

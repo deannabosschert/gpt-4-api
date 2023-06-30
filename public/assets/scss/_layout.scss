@@ -99,7 +99,7 @@ form {
   }
 }
 
-.inspiratie {
+.ins {
 
   button,
   a {
@@ -341,7 +341,7 @@ footer {
 }
 
 /* SECTIONS */
-.unsplash {
+.uHeader {
   background-color: white;
   padding: 2.5rem 0rem 0rem 0rem;
   border-radius: 5px;
@@ -351,11 +351,11 @@ footer {
   max-width: 72rem;
 }
 
-main .inspiratie .unsplash {
+main .ins .uHeader {
   margin-bottom: 7rem;
 }
 
-.unsplashGallery {
+.uGallery {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -364,10 +364,6 @@ main .inspiratie .unsplash {
   max-width: 72rem;
   padding: 1rem;
 
-  // margin-bottom: -1rem;
-  // flex-direction: row;
-  // flex-wrap: wrap;
-  // max-width: 100%;
   h4 {
     font-weight: lighter;
     color: $dark;
@@ -452,7 +448,7 @@ main {
     display: flex;
   }
 
-  .tab[data-route="inspiratie"]:active {
+  .tab[data-route="ins"]:active {
     display: flex;
   }
 
@@ -567,7 +563,7 @@ main {
   }
 }
 
-.inspiratie>section>.noPinterest {
+.ins>section>.noPinterest {
   background-color: white;
   border: 1px solid purple;
   background: rgba(255, 255, 255, 0.50);
@@ -741,7 +737,7 @@ input:focus {
   display: none;
 }
 
-.inspiratie .placeholder {
+.ins .placeholder {
   display: none;
 }
 
@@ -811,7 +807,7 @@ input:focus {
   }
 }
 
-.unsplash {
+.uHeader {
   margin-top: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -828,7 +824,7 @@ input:focus {
   margin-left: 1rem
 }
 
-.inspiratie>section>p {
+.ins>section>p {
   border-left: 3px solid $palevioletredborder;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -1064,9 +1060,6 @@ header {
     margin-top: -10px;
     border-radius: 5px;
     padding: 0 2rem 1rem 2rem;
-    // fieldset {
-    //   background-color: %laven
-    // }
   }
 }
 

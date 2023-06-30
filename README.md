@@ -1,5 +1,5 @@
-# mongodb-example
+# gpt-4-api-test
 
-Just a simple example repo for usage of mongodb atlas database.
+Just a simple starter to test the GPT-4 API with.
 
-(stripped @real-time-web-2021 repository so there might be some leftover files from that project)
+note: contains a lot of leftover css from my student days, so might look a bit messy.
